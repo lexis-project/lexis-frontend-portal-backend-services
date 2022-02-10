@@ -1,6 +1,13 @@
-# LEXIS WP8 Portal BackEnd
+# lexis-frontend-portal-backend-services
 
-This repo contains a small golang application which provides the following functionality:
+This repo contains the WP8 Portal BackEnd for LEXIS.
+
+## Acknowledgement
+This code repository is a result / contains results of the LEXIS project. The project has received funding from the European Union’s Horizon 2020 Research and Innovation programme (2014-2020) under grant agreement No. 825532.
+
+## Components
+
+The golang application in this repository provides the following functionality:
 - serve the compiled version of the React FE
 - support an authentication flow
 - serve information relating to the logged in user, including a token valid for services within the (keycloak) realm
@@ -15,6 +22,7 @@ The repo contains
 - the application in the `server` directory
 - scripts to build the service in a docker container in the `build` directory
 - support for running the service including configuration files in the `run` directory; note that it is recommended that these are copied elsewhere in the filesystem and run from there to minimize the likelihood of putting sensitive information (certs, secrets) into the code repo.
+
 
 ## Instructions for building the container
 
