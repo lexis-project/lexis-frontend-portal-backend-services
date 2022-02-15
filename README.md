@@ -1,5 +1,7 @@
 # lexis-frontend-portal-backend-services
 
+<a href="https://doi.org/10.5281/zenodo.6080537"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.6080537.svg" alt="DOI"></a>
+
 This repo contains the WP8 Portal BackEnd for LEXIS.
 
 ## Acknowledgement
